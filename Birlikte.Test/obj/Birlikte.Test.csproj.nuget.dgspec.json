@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Test/Birlikte.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Application/Birlikte.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Application/Birlikte.Application.csproj",
+        "projectName": "Birlikte.Application",
+        "projectPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Application/Birlikte.Application.csproj",
+        "packagesPath": "/Users/haruncanatali/.nuget/packages/",
+        "outputPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/haruncanatali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Persistence/Birlikte.Persistence.csproj": {
+                "projectPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Persistence/Birlikte.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Domain/Birlikte.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Domain/Birlikte.Domain.csproj",
+        "projectName": "Birlikte.Domain",
+        "projectPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Domain/Birlikte.Domain.csproj",
+        "packagesPath": "/Users/haruncanatali/.nuget/packages/",
+        "outputPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/haruncanatali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Persistence/Birlikte.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Persistence/Birlikte.Persistence.csproj",
+        "projectName": "Birlikte.Persistence",
+        "projectPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Persistence/Birlikte.Persistence.csproj",
+        "packagesPath": "/Users/haruncanatali/.nuget/packages/",
+        "outputPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/haruncanatali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Domain/Birlikte.Domain.csproj": {
+                "projectPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Domain/Birlikte.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Test/Birlikte.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Test/Birlikte.Test.csproj",
+        "projectName": "Birlikte.Test",
+        "projectPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Test/Birlikte.Test.csproj",
+        "packagesPath": "/Users/haruncanatali/.nuget/packages/",
+        "outputPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/haruncanatali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Application/Birlikte.Application.csproj": {
+                "projectPath": "/Users/haruncanatali/Desktop/Projects/Birlikte/Birlikte.Application/Birlikte.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
